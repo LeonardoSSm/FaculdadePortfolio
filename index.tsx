@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Navbar from '../components/ui/Navbar';
-import styles from '../../styles/home.module.scss';
+import Navbar from './src/components/ui/Navbar';
+import styles from './home.module.scss';
 import Image from 'next/image';
-import fotoImg from '../../public/fotoImg.png'
+import fotoImg from './public/fotoImg.png'
 
 export default function Home() {
   return (
